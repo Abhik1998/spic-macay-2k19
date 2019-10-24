@@ -1811,7 +1811,7 @@ ul.icons {
   -webkit-justify-content: center;
   -ms-justify-content: center;
   justify-content: center;
-  background-image: url("../../images/banner.jpg");
+  background-image: url("../../images/banner.gif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1879,7 +1879,7 @@ ul.icons {
         #banner input[type="button"].primary:hover:active,
         #banner button.primary:hover:active,
         #banner .button.primary:hover:active {
-          background-color: #b71824; }
+          background-color: #000000; }
   #banner label {
     color: #ffffff; }
   #banner input[type="text"],
