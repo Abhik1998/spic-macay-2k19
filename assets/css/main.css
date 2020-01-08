@@ -2055,6 +2055,22 @@ ul.icons {
     opacity: 0; }
   body.is-preload #banner:before {
     opacity: 1; }
+    .lg-view{
+      display:inline-block;
+   }
+   
+   .sm-view{
+      display:none;
+   }
+   @media screen and (max-width: 490px) {
+    .lg-view{
+       display:none;
+    }
+
+    .sm-view{
+       display:inline-block;
+    }
+}
 
 /* CTA */
 #cta {
