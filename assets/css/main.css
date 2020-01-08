@@ -2061,7 +2061,7 @@ ul.icons {
   background-color: #f5a627;
   color: rgba(255, 255, 255, 0.75);
   background-attachment: fixed;
-  background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url(../../images/cta01.jpg);
+  background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url(../../images/.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
