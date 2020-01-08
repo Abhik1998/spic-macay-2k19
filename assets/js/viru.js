@@ -1,73 +1,4 @@
-<html>
-	<head>
-<style>
-	
- .cards {
-	 width: 400px;
-	 margin: 0 auto;
-	 perspective: 1000px;
-}
- .cards__container {
-	 width: 100%;
-	 position: relative;
-	 padding-bottom: 71.5%;
-	 transition: 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-	 transform-style: preserve-3d;
-}
- .cards__front, .cards__back {
-	 width: 100%;
-	 height: 100%;
-	 backface-visibility: hidden;
-	 position: absolute;
-	 top: 0;
-	 left: 0;
-	 border-radius: 5px;
-	 background-size: cover;
-	 box-shadow: 25px 25px 50px rgba(0, 0, 0, 0.2);
-}
- .cards__front {
-	 z-index: 2;
-	 transform: rotateY(0deg);
-}
- .cards__back {
-	 transform: rotateY(180deg);
-}
- .cards.is-flipped .cards__container {
-	 transform: rotateY(180deg);
-}
- .card-1 {
-	 background-image: url(https://source.unsplash.com/YQ3FpeQkNhA/800x600);
-}
- .card-2 {
-	 background-image: url(https://source.unsplash.com/gGC63oug3iY/800x600);
-}
- .card-3 {
-	 background-image: url(https://source.unsplash.com/PAcI-vmFL2g/800x600);
-}
- .card-4 {
-	 background-image: url(https://source.unsplash.com/_d0zgyMmYT8/800x600);
-}
- 
-
-	</style>
-
-
-	</head>
-	<body>
-	<div class="cards">
-		<div class="cards__container">
-			<div class="cards__front card-1"></div>
-			<div class="cards__back card-2"></div>
-		</div>
-	</div>
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
-	<script src="assets/js/car.js"></script>
-	  <script>
-		var cardAmount = 4;
+var cardAmount = 4;
 var flipSpeed = 1500;
 
 // Preload all images to prevent blank cards
@@ -132,8 +63,3 @@ var flipSpeed = 1500;
     cycle();
     setInterval(cycle, speed * elements);
 })(cardAmount, flipSpeed);
-		</script>
-
-</body>
-
-</html>
