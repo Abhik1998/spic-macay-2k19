@@ -3,6 +3,8 @@
     overflow: hidden;
     position: relative;
     size: 0ch;
+    width: 150px;
+    height: 160px;
 }
 .our-team img{
     width: 10%;
